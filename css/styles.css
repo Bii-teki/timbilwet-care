@@ -1,0 +1,178 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    letter-spacing: -.003em;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+em{
+    color: #1DA1F2;
+}
+.logo{
+    font-size: large;
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f6f3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 15px;
+    padding: 30px;
+    
+    
+}
+
+
+
+.intro, .contact {
+    flex: 1;
+    border: 2px solid yellow;
+    padding: 70px;
+} 
+#contact{
+    justify-content: center;
+}
+.profile {
+    margin-top: 20px;
+    margin-right: 100px;
+ 
+}  
+.b33-title{
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+h1, h2
+{
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.profile {
+    margin-top: 20px;
+    margin-right: 100px;
+   
+} 
+
+.images{
+    height: 30px;
+    width: 30px;
+}
+.nav-links ul li{
+    display: flex;
+    list-style: none;
+    width: 10px;
+    padding: 0px 10px;
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "League Spartan",sans-serif;
+    line-height: 1.5;
+    font-weight: 600 !important;
+}
+.home {
+    display: flex;
+    height: 100vh;
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+
+}
+.about, .service, .contact {
+    display: flex;
+    height: 100vh;
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #e22104;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 9px 25px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.mesi{
+    position: relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.mesi-head{
+    margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+ 
+ 
+}
+.sec-head
+{
+  letter-spacing: 0.5px;
+  font-size: 36px !important;
+  position: relative;
+  text-align: center;
+}
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+  }
+  .contact {
+    display: flex;
+}
+
+.cantacta {
+    flex: 1;
+    border: 2px solid yellow;
+    padding: 100px;
+    justify-content: center;
+}  
+
+
+.map {
+  display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+} 
+#about{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#about a{
+    text-decoration: none;
+}
+
+  .footer{
+    height: 200px;
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
