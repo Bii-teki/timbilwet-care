@@ -245,7 +245,7 @@ html {
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
-  background: #4dacf5;
+  background: skyblue;
   box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
 }
 .mesi-head{
@@ -255,6 +255,10 @@ html {
   color:  #304438;
   letter-spacing: 1px;
  
+}
+.mesi p{
+    font-size: 15px;
+    color: black;
 }
 .map{
     height: 400px;
